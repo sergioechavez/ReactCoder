@@ -1,9 +1,11 @@
 import "./CartWidget.css"
+import { FaCartArrowDown } from "react-icons/fa";
 
 const CartWidget = () => {
   return (
     <div className="nav-cart">
-        3
+        <p>2</p>
+      <FaCartArrowDown />
     </div>
   )
 }

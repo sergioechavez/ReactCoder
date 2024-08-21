@@ -12,25 +12,25 @@ const Navbar = () => {
 
             </div>
 
-            <div className="navbar-links">
+            <div className="navbar-contenedor">
 
-                <u>
+                <ul className="navbar-links">
                     <li>
-                        <a href="#">INICIO</a>
+                        <a href="#" className="link">INICIO</a>
                     </li>
                     <li>
-                        <a href="#">GASEOSAS</a>
+                        <a href="#" className="link">GASEOSAS</a>
                     </li>
                     <li>
-                        <a href="#">CERVEZAS</a>
+                        <a href="#" className="link">CERVEZAS</a>
                     </li>
                     <li>
-                        <a href="#">VINOS</a>
+                        <a href="#" className="link">VINOS</a>
                     </li>
                     <li>
-                        <a href="#">CONTACTO</a>
+                        <a href="#" className="link">CONTACTO</a>
                     </li>
-                </u>
+                </ul>
 
             </div>
 
