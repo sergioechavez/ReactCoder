@@ -1,37 +1,41 @@
 [
 {
     "id": 1,
-    "nombre": "Playstation 5",
-    "precio": 1100,
+    "name": "Jugos",
+    "price": 1100,
     "stock": 20,
-    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fes-ar%2Fps5%2F&psig=AOvVaw3BIyFaBiLgcghhwKTaYkeb&ust=1724083799643000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj06OXk9v6HAxVgM7kGHaX7Dg8QjRx6BAgAEBg",
-    "descripcion": "Consola de videojuegos de ultima generacion"
+    "image": "/assets/img/jugos.jpg",
+    "description": "Jugos con y sin azucar",
+    "category" : "Jugos"
 },
 
 {
     "id": 2,
-    "nombre": "Playstation 5",
-    "precio": 1200,
+    "name": "Gaseosas",
+    "price": 1200,
     "stock": 33,
-    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fes-ar%2Fps5%2F&psig=AOvVaw3BIyFaBiLgcghhwKTaYkeb&ust=1724083799643000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj06OXk9v6HAxVgM7kGHaX7Dg8QjRx6BAgAEBg",
-    "descripcion": "Consola de videojuegos de ultima generacion"
+    "image": "/assets/img/gaseosas.jpg",
+    "description": "Gaseosas con y sin azucar",
+    "category" : "Gaseosas"
 },
 
 {
     "id": 3,
-    "nombre": "Playstation 5",
-    "precio": 1500,
+    "name": "Cervezas",
+    "price": 1500,
     "stock": 61,
-    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fes-ar%2Fps5%2F&psig=AOvVaw3BIyFaBiLgcghhwKTaYkeb&ust=1724083799643000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj06OXk9v6HAxVgM7kGHaX7Dg8QjRx6BAgAEBg",
-    "descripcion": "Consola de videojuegos de ultima generacion"
+    "image": "/assets/img/cervezas.jpg",
+    "description": "Cervezas con y sin alcohol",
+    "category" : "Cervezas"
 },
 
 {
     "id": 4,
-    "nombre": "Playstation 5",
-    "precio": 2000,
+    "name": "Vinos",
+    "price": 2000,
     "stock": 80,
-    "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fes-ar%2Fps5%2F&psig=AOvVaw3BIyFaBiLgcghhwKTaYkeb&ust=1724083799643000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwj06OXk9v6HAxVgM7kGHaX7Dg8QjRx6BAgAEBg",
-    "descripcion": "Consola de videojuegos de ultima generacion"
+    "image": "/assets/img/vinos.jpg",
+    "description": "Vinos,Espumantes",
+    "category" : "Vinos"
 }
 ]

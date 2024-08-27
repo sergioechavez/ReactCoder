@@ -1,36 +1,43 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import CartWidget from './components/CartWidget/CartWidget'
 import Footer from './components/Footer/Footer'
-import Card from './components/Example/Card'
-import CuadroFoco from './components/Example/CuadroFoco'
-import ContadorSec from './components/Example/ContadorSec'
-import ContadorRef from './components/Example/ContadorRef'
-import ItemCount from './components/ItemCount/ItemCount'
 import ItemListaContenedor from './components/ItemListaContenedor/ItemListaContenedor'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import{BrowserRouter,Routes,Route} from 'react-router-dom'
+import Error from './components/Error/Error'
+import Contacto from './components/Contacto/Contacto'
 
-
-function App() {
+const App = () => {
 
 
   return (
     <>
+      <BrowserRouter>
 
       <Navbar />
 
-      <ItemListaContenedor greeting="Bienvenidos a la Tienda"/>
+      <Routes>
+
+          <Route path='/' element={<ItemListaContenedor greeting="Bienvenidos a la Tienda" />}/>
+
+        <Route path='/category/:categoryId' element={<ItemListaContenedor />} />
+
+        <Route path='/item/:id' element={<ItemDetailContainer />} />
+
+        <Route path='/contacto' element={<Contacto/>}/>
+
+        <Route path='/*' element={<Error />} />
+
+      </Routes>
+
+        <Footer />
+      
+      </BrowserRouter>
+
+
 
       
 
-      <Footer />
-      
-      {/* <CuadroFoco/> */}
-      
-      {/* <ContadorSec /> */}
-
-      {/* <ContadorRef/> */}
-
-      <ItemCount/>
     </>
   )
 }

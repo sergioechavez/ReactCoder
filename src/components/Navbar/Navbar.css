@@ -12,10 +12,16 @@
     font-weight: bold;
 }
 
+.logo{
+    text-decoration: none;
+}
+
 .navbar-links{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    gap: 40PX;
+    list-style: none;
 }
 
 .link{

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const ItemCount = () => {
+const ItemCount = ({stock}) => {
 
     const [count,setCount] = useState(1);
 
@@ -12,7 +12,7 @@ const ItemCount = () => {
     }
 
     const increment = () => {
-        if(count < 10){
+        if(count <stock){
             setCount(count + 1);
         }
 
@@ -25,11 +25,10 @@ const ItemCount = () => {
 
   return (
     <div>
-      <h1>Contador</h1>
 
-      <p>Contador: {count}</p>
 
       <button onClick={decrement}>Decrementar</button>
+      <p>{count}</p>
       <button onClick={increment}>Incrementar</button>
       <button onClick={addToCart}>Agregar al carrito</button>
     </div>
