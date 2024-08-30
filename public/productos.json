@@ -37,5 +37,15 @@
     "image": "/assets/img/vinos.jpg",
     "description": "Vinos,Espumantes",
     "category" : "Vinos"
+},
+
+{
+    "id": 5,
+    "name": "Snacks",
+    "price": 200,
+    "stock": 61,
+    "image": "/assets/img/snacks.jpg",
+    "description": "Dulces y salados",
+    "category" : "Snacks"
 }
 ]

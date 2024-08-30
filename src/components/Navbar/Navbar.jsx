@@ -32,6 +32,9 @@ const Navbar = () => {
                         <Link to="/category/Vinos" className="link">VINOS</Link>
                     </li>
                     <li>
+                        <Link to="/category/Snacks" className="link">SNACKS</Link>
+                    </li>
+                    <li>
                         <Link to="/Contacto" className="link">CONTACTO</Link>
                     </li>
                 </ul>
